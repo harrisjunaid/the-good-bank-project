@@ -7,9 +7,9 @@ const DepositPage = () => {
 	const {user, dbApp, setDBapp, setLoggedIn}  = useContext(BankContext);
 	const [amount, setAmount] =useState(null);
 	console.log("user is:😁")
-	console.log(user);
+	console.log(JSON.stringify(user));
 	console.log("selected amont:💲")
-	console.log(amount);
+	console.log(Number(amount));
 
 	const transaction = () => {
 		setDBapp(dbApp.map((x)=>{
@@ -55,7 +55,7 @@ const DepositPage = () => {
 									<span className="input-group-text">.00</span>
 								</div>
 							</div>
-							<button className="card-link btn btn-secondary mt-auto"  style={{  border: "2px solid white"}} onClick={()=>{(amount>-1)?transaction():alert("INVALID INPUT")}}>Deposit Amount</button>
+							<button className="card-link btn btn-secondary mt-auto"  style={{  border: "2px solid white"}} onClick={()=>{(Number(amount)>-1)?transaction():alert("INVALID INPUT")}}>Deposit Amount</button>
 						</div>
 					</div>  
 				</div>

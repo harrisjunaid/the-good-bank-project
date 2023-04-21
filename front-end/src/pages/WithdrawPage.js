@@ -58,7 +58,7 @@ const DepositPage = () => {
 									<span className="input-group-text">.00</span>
 								</div>
 							</div>
-							<button className="card-link btn btn-secondary mt-auto"  style={{  border: "2px solid white"}} onClick={()=>{((amount<=	Number(user.balance)))?transaction():alert("INVALID INPUT")}}>Withdraw Amount</button>
+							<button className="card-link btn btn-secondary mt-auto"  style={{  border: "2px solid white"}} onClick={()=>{((amount<=	Number(user.balance))&& amount>0)?transaction():alert("INVALID INPUT")}}>Withdraw Amount</button>
 						</div>
 					</div>  
 				</div>

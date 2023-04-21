@@ -1,13 +1,18 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+// CSS
 import './index.css';
-import './components/tooltip'
+// Components
 import App from './App';
+//  Web Vitals
 import reportWebVitals from './reportWebVitals';
+// Context
 import { BankProvider } from './assets/context/BankProvider';
-
+// Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
-
+// NavBar Tooltip
+import './components/tooltip'
+//
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
