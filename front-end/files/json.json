@@ -1,0 +1,10 @@
+[{
+    "name": "",
+    "email": "",
+    "password": "",
+    "transactions": [
+        {"deposit":[{"amount": 0},{"total": 0},{"time": ""}]},
+        {"withdraw":[{"amount": 0},{"total": 0},{"time": ""}]}
+    ],
+    "balance": 0
+}]
