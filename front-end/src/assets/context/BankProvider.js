@@ -1,7 +1,10 @@
 import { useImmer, useState, useEffect, useReducer } from 'react';
+// context to create provider
 import { BankContext } from './BankContext';
+// db
 import db from "../db/db.json"
 
+// context provider
 export const BankProvider = ({children}) => {
 	const [loggedIn, setLoggedIn] = useState(false);  // login flag
 	const [userIndex, setUserIndex] = useState(null); // 

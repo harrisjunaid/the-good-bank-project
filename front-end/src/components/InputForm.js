@@ -3,8 +3,6 @@ import React, { useContext, useState } from "react"
 import { MdOutlinePersonOutline } from "react-icons/md"
 import { HiOutlineMail } from "react-icons/hi"
 import { TbPassword } from "react-icons/tb"
-// useContext
-import { BankContext } from '../assets/context/BankContext';
 // background and css
 import bankImg from "../assets/img/bank-main.jpg"
 import "./form.css"
@@ -12,9 +10,8 @@ import "./form.css"
 import { useFormik } from 'formik'
 import * as Yup from 'yup'
 
-const InputForm = ({onRegisterCustomer}) => {
+const InputForm = ({onRegisterCustomer, dbApp, setLoggedIn}) => {
   const [submitStatus, SetSubmitStatus] = useState(false);
-  const { setLoggedIn, dbApp }  = useContext(BankContext);
   
   const initialData = {
     "name": "",

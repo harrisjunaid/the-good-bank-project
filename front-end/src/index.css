@@ -18,7 +18,6 @@ body {
   }
 
   /*NAV*/
-
   nav {
     background-color:  #0966C2;
     border-bottom: 5px solid #0966C2;
@@ -73,11 +72,8 @@ body {
     color: #F3BA64;
     background-color: #0966C2;  }
  
-
-
-
-    /*MEDIA QUERY*/
-    @media (min-width: 875px) {
+  /*MEDIA QUERY*/
+  @media (min-width: 875px) {
     header {
       margin: 1rem auto;
     }

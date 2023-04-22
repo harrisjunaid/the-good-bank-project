@@ -1,7 +1,9 @@
-import './App.css';
 import React, {useContext, useState, useEffect} from 'react'
+// router
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
-
+// css
+import './App.css';
+// pages
 import LandingPage from './pages/LandingPage'
 import NavBar from './components/NavBar';
 import HomePage from './pages/HomePage';
@@ -10,7 +12,7 @@ import DepositPage from './pages/DepositPage';
 import WithdrawPage from './pages/WithdrawPage';
 import AllDataPage from './pages/AllDataPage';
 import NotFoundPage from './pages/NotFoundPage';
-
+// context
 import { BankContext } from './assets/context/BankContext';
 
 
