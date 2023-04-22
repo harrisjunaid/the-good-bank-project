@@ -17,6 +17,12 @@ const AllDataPage = () => {
 	const {dbApp, setLoggedIn} = useContext(BankContext);
 	console.log(dbApp);
 
+	function handleClick(e) {
+    // e.target is the element that triggered the event
+    // e.currentTarget is the element that the event listener is attached to
+    console.log("You clicked on " + e.target.textContent);
+  }
+
 	return(
 		<div className="container mx-auto font-thin">
 		<div className="card " >
@@ -35,19 +41,18 @@ const AllDataPage = () => {
 							<th>Balance</th>
 						</tr>						
 					</thead>
-					<tbody>
+					<tbody onClick={handleClick}>
 						{dbApp &&(
 								dbApp.map((user, i) => 									
 									<TableRow key={i} user={user} />
 							))}
 					</tbody>
 				</table>  
-
 			</div>
 		</div>
 		</div>
 	</div>
 	)
-	};
+};
 
 export default AllDataPage;

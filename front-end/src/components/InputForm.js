@@ -44,7 +44,7 @@ const InputForm = ({onRegisterCustomer, dbApp, setLoggedIn}) => {
       if(!(activeCustomer(values))) {
         onRegisterCustomer(values);
         SetSubmitStatus(true);
-        // setTimeout(SetSubmitStatus(false), 3000);
+        setTimeout(()=> SetSubmitStatus(false), 6000);
         return
       } else alert("CUSTOMER ALREADY EXIST 🐧")
     }
@@ -97,7 +97,7 @@ const InputForm = ({onRegisterCustomer, dbApp, setLoggedIn}) => {
                   <button  id="reset" type="button" className="card-link btn btn-secondary mt-auto"  onClick={formik.handleReset} disabled={false}>Reset</button>
                 </div>
               </form>
-              {submitStatus ? <p className="text-warning mt-3">{`User Created: ${formik.values.name}`}</p>:null}
+              {submitStatus ? <pre className="text-warning mt-3 fs-2 h-25 bg-success">{`User Created: ${formik.values.name} : ${formik.values.email} : ${formik.values.password}`}</pre>:null}
             </div>  
           </div>
         </div>
