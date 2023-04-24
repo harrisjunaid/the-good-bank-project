@@ -1,13 +1,13 @@
 import { NavLink } from "react-router-dom";
+// react-icons
 import { AiFillBank} from "react-icons/ai"
 import { MdOutlineAccountBox } from "react-icons/md"
 import { GiTakeMyMoney, GiPayMoney } from "react-icons/gi"
 import { BiData } from "react-icons/bi"
+// logo.png
 import logo from "../assets/img/bank-logo.png"
-
+// css
 import './NavBar.css';
-
-// import logo from "../assets/red30-tech-logo.png";
 
 const NavBar = () => {
   const getClass = ({ isActive }) => (isActive ? "nav-active" : null);

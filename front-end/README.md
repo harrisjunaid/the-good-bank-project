@@ -35,10 +35,19 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
+![CDN to create-react-app](src/assets/docs/cdn-app.drawio.svg)
 
+![HTML <script> to import component](src/assets/docs/html-to-import.drawio.svg)
 
+![createRoot](src/assets/docs/createRoot.drawio.svg)
 
+![HashRouter](src/assets/docs/BrowserRouter.drawio.svg)
 
+![NavLink](src/assets/docs/NavLink.drawio.svg)
+
+![form](src/assets/docs/form.drawio.svg)
+
+![formik and yup](src/assets/docs/formik-yup.drawio.svg)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
@@ -88,15 +97,7 @@ Distributed under the MIT License. See `LICENSE.txt` for more information.
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/othneildrew/Best-README-Template.svg?style=for-the-badge
-[forks-url]: https://github.com/othneildrew/Best-README-Template/network/members
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+
 [license-url]: LICENSE.lic
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
 [linkedin-url]: https://linkedin.com/in/harris-junaid
