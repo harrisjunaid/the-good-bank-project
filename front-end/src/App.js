@@ -1,4 +1,4 @@
-import React, {useContext, useState, useEffect} from 'react'
+import React, { useContext } from 'react'
 // router
 import { BrowserRouter, Routes, Route } from 'react-router-dom';
 // css
@@ -6,7 +6,7 @@ import './App.css';
 // pages
 import LandingPage from './pages/LandingPage'
 import NavBar from './components/NavBar';
-import HomePage from './pages/HomePage';
+import WelcomePage from './pages/WelcomePage';
 import CreateAccountPage from './pages/CreateAccountPage';
 import DepositPage from './pages/DepositPage';
 import WithdrawPage from './pages/WithdrawPage';
@@ -28,7 +28,7 @@ function App() {
             <NavBar />
             <div id="page-body">
               <Routes>
-                <Route path="/" element={<HomePage />} />
+                <Route path="/" element={<WelcomePage />} />
                 <Route path="/create" element={<CreateAccountPage />} />
                 <Route path="/deposit" element={<DepositPage />} />
                 <Route path="/withdraw" element={<WithdrawPage />} />

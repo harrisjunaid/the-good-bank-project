@@ -1,6 +1,7 @@
 import React, {useContext, useState} from "react"
-
+// images
 import bankImg from "../assets/img/bank-main.jpg"
+// context
 import { BankContext } from '../assets/context/BankContext';
 
 const DepositPage = () => {

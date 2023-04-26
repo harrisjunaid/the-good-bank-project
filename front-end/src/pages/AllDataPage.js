@@ -1,5 +1,7 @@
 import React, {useContext} from 'react'
+// images
 import bankImg from "../assets/img/bank-main.jpg"
+// context
 import { BankContext } from '../assets/context/BankContext';
 
 const TableRow = ({user}) => {

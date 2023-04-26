@@ -1,7 +1,8 @@
 import React from 'react';
+// images
 import bankImg from "../assets/img/bank-main.jpg"
 
-const HomePage = () => (
+const WelcomePage = () => (
 	<div className="container mx-auto font-thin">
 		<div className="card text-center border border-light border-4 shadow" >
 			<div className="card-body">
@@ -14,4 +15,4 @@ const HomePage = () => (
 	</div>
 );
 
-export default HomePage;
+export default WelcomePage;

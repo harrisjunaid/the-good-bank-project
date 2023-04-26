@@ -1,4 +1,4 @@
-import React, { useContext, useState } from "react"
+import React, { useState } from "react"
 // icons
 import { MdOutlinePersonOutline } from "react-icons/md"
 import { HiOutlineMail } from "react-icons/hi"

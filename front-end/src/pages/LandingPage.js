@@ -1,6 +1,5 @@
 import React, { useContext, useState, useEffect, useCallback } from 'react'
-// import { BankContext } from '../assets/context/BankContext';
-
+// components
 import Login from '../components/LogIn'
 import Register from '../components/Register'
 

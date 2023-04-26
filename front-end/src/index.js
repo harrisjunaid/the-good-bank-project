@@ -6,12 +6,12 @@ import './index.css';
 import App from './App';
 //  Web Vitals
 import reportWebVitals from './reportWebVitals';
-// Context
-import { BankProvider } from './assets/context/BankProvider';
 // Bootstrap
 import 'bootstrap/dist/css/bootstrap.min.css';
 // NavBar Tooltip
 import './components/tooltip'
+// Context
+import { BankProvider } from './assets/context/BankProvider';
 
 // createRoot and render
 const root = ReactDOM.createRoot(document.getElementById('root'));
