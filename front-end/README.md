@@ -49,7 +49,7 @@
 
 ![formik and yup](src/assets/docs/formik-yup.drawio.svg)
 
-![design decisions](src/assets/docs/design-decisions.svg)
+![design decisions](src/assets/docs/design-decisions.drawio.svg)
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
